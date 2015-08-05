@@ -8,7 +8,7 @@ import ij.process.ImageProcessor;
 /**
  * @author Vladimir Nizamutdinov (astartes91@gmail.com)
  * Fuzzy logic based edge detection plugin for ImageJ
- * Realised on the basis of Suliman et. al algorithm (2011):
+ * Realised on the basis of Suliman et. al algorithm (2011)
  * http://webbut.unitbv.ro/bu2011/Series%20I/BULETIN%20I%20PDF/Suliman%20C.pdf
  */
 public class Fuzzy_Edge_Detection_By_Suliman_And_Others implements PlugInFilter {
@@ -67,7 +67,7 @@ public class Fuzzy_Edge_Detection_By_Suliman_And_Others implements PlugInFilter 
 
         ImagePlus finalImagePlus = getFinalImage(edgeImageProcessor);
 
-       // long endTime = System.nanoTime();
+        // long endTime = System.nanoTime();
 
         finalImagePlus.show();
         //IJ.log(Double.valueOf((endTime - startTime)/1000000000.0).toString());
@@ -327,10 +327,10 @@ public class Fuzzy_Edge_Detection_By_Suliman_And_Others implements PlugInFilter 
 
                     if (!isNeighbourWhite){
                         finalImageProcessor.set(columnIndex, rowIndex, 0);
-                    }else{
+                    } else {
                         finalImageProcessor.set(columnIndex, rowIndex, 255);
                     }
-                }else {
+                } else {
                     finalImageProcessor.set(columnIndex, rowIndex, 0);
                 }
             }
