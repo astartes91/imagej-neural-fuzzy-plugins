@@ -8,7 +8,7 @@ import ij.process.ImageProcessor;
 /**
  * @author Vladimir Nizamutdinov (astartes91@gmail.com)
  * Contrast enhancement ImageJ plugin
- * Implememnted on the basis of fuzziness minimization algorithm:
+ * Implemented on the basis of fuzziness minimization algorithm:
  * http://www.ijstm.com/images/short_pdf/1419414679_P154-160.pdf
  */
 public class Fuzzy_Contrast_Enhancement_By_Fuzziness_Minimization implements PlugInFilter {

@@ -16,7 +16,7 @@ import java.util.ArrayList;
 /**
  * @author Vladimir Nizamutdinov (astartes91@gmail.com)
  * Artificial neural networks based edge detection plugin for ImageJ
- * Implememnted on the basis of Mehrara and Zahedinejad algorithm (2011)
+ * Implemented on the basis of Mehrara and Zahedinejad algorithm (2011)
  * http://www.sid.ir/EN/VEWSSID/J_pdf/1035220110202.pdf
  */
 public class ANN_Edge_Detection_By_Mehrara_And_Zahedinejad implements PlugInFilter{
