@@ -8,7 +8,7 @@ import ij.process.ImageProcessor;
 /**
  * @author Vladimir Nizamutdinov (astartes91@gmail.com)
  * Fuzzy logic based edge detection plugin for ImageJ
- * Realised on the basis of Suliman et. al algorithm (2011)
+ * Implememnted on the basis of Suliman et. al algorithm (2011)
  * http://webbut.unitbv.ro/bu2011/Series%20I/BULETIN%20I%20PDF/Suliman%20C.pdf
  */
 public class Fuzzy_Edge_Detection_By_Suliman_And_Others implements PlugInFilter {
